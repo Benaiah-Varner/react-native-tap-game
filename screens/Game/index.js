@@ -5,7 +5,6 @@ import styles from './styles';
 import PropTypes from 'prop-types';
 import { generateRGB, mutateRGB } from '../../utilities';
 
-
 export default class Home extends Component {
   state = {
     points: 0,
